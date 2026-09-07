@@ -1,0 +1,60 @@
+.project-form {
+  border: 2px solid #111;
+  background: #fff;
+  padding: 1rem 1rem 1.15rem;
+}
+
+.project-form__heading {
+  margin: 0 0 0.85rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.project-form__form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.project-form__label {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.project-form__input,
+.project-form__textarea {
+  width: 100%;
+  border: 1.5px solid #111;
+  background: #fff;
+  padding: 0.45rem 0.55rem;
+  margin-bottom: 0.45rem;
+  resize: vertical;
+}
+
+.project-form__input:focus,
+.project-form__textarea:focus {
+  outline: 2px solid #333;
+  outline-offset: 1px;
+}
+
+.project-form__error {
+  margin: 0 0 0.35rem;
+  color: #8a1f1f;
+  font-size: 0.95rem;
+}
+
+.project-form__button {
+  align-self: flex-start;
+  min-width: 4.5rem;
+  border: 1.5px solid #111;
+  background: #fff;
+  padding: 0.35rem 0.85rem;
+}
+
+.project-form__button:hover {
+  background: #f0f0f0;
+}
+
+.project-form__button:active {
+  background: #e4e4e4;
+}

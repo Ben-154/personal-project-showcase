@@ -1,0 +1,28 @@
+.app {
+  min-height: 100vh;
+  padding: 1.5rem 1rem 2.5rem;
+}
+
+.app__container {
+  width: min(100%, 520px);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+@media (min-width: 640px) {
+  .app {
+    padding: 2rem 1.5rem 3rem;
+  }
+
+  .app__container {
+    width: min(100%, 560px);
+  }
+}
+
+@media (min-width: 900px) {
+  .app__container {
+    width: min(100%, 640px);
+  }
+}
