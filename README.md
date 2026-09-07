@@ -2,6 +2,14 @@
 
 A React single-page application (SPA) for showcasing portfolio projects. Users can view projects, add new ones dynamically, and filter the list with live search. The layout follows the provided `se_c4_m8_mockup` wireframe.
 
+## Live website
+
+**https://ben-154.github.io/personal-project-showcase/**
+
+## Repository
+
+https://github.com/Ben-154/personal-project-showcase
+
 ## Live features
 
 - Landing page with a list of projects
